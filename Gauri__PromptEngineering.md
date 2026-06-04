@@ -1,25 +1,16 @@
 # Prompt Engineering Portfolio
 
 Name: Gauri
-Date: 03-06-2026
-LLM Used: Claude Opus 4.1 (Anthropic)
-
-# Prompt Engineering Portfolio
-
-Name: Gauri
-Date: 3rd June 2026
+Date: 05-06-2026
 LLM Used: Claude Opus 4.1 (Anthropic)
 
 ---
-
 ## Part 1: Prompt Design & Iteration
 
 ### 1.1 Scenario A: Technical Explanation
-
 **Goal:** Explain quantum entanglement to a 10-year-old.
 
 ---
-
 **V1 Prompt:**
 
 Explain the concept of Quantum Entanglement to a 10 year old.
@@ -39,7 +30,6 @@ Even Albert Einstein thought this was so strange that he called it "spooky actio
 The tricky part is that you can't use it to send messages faster than light (sorry, no faster-than-light texting). It's more like the particles already "agreed" on what they'd do before they separated—they just don't reveal their answer until you check on them.
 
 ---
-
 **V2 Prompt:**
 
 You are a fun and enthusiastic science teacher who loves making kids excited about the universe. Explain quantum entanglement to a curious 10-year-old using a simple story or analogy. Make it feel magical and wondrous, but also accurate. Avoid technical jargon completely.
@@ -73,7 +63,6 @@ Einstein thought this was SO weird that he called it "spooky action at a distanc
 Pretty wild that you live in a universe THIS magical, right? 🌌
 
 ---
-
 **V3 Prompt:**
 
 You are an enthusiastic science teacher explaining quantum entanglement to a curious 10-year-old who loves stories and has just learned that atoms make up everything around us. Use a vivid, imaginative analogy to explain the concept, make it feel wondrous and magical, keep it completely jargon-free, include Einstein's reaction, briefly mention one thing entanglement cannot do (in simple terms), and end with a question that makes the child want to explore more about the universe.
@@ -125,13 +114,11 @@ If tiny invisible particles can be connected across the entire universe—whispe
 What do YOU think is the next big mystery scientists should try to solve? 🔭🌌
 
 ---
-
 ### 1.1 Scenario B: Professional Email
 
 **Goal:** Draft an email declining a job offer politely while expressing continued interest in the company.
 
 ---
-
 **V1 Prompt:**
 
 Write an email declining a job offer politely.
@@ -157,7 +144,6 @@ Warm regards,
 [Your Email Address]
 
 ---
-
 **V2 Prompt:**
 
 You are a professional career coach helping someone write a polished, warm email declining a job offer. The person is declining because they accepted another offer, but they genuinely liked the company and want to leave the door open for future opportunities. The email should be courteous, specific about appreciation, and end on a forward-looking note.
@@ -183,7 +169,6 @@ Warmly,
 [Your Name]
 
 ---
-
 **V3 Prompt:**
 
 You are a professional career coach writing on behalf of a client named Priya, a marketing professional who is declining a job offer from a tech startup called BrightPath. She is declining because she accepted a role closer to her long-term goal of working in brand strategy. She genuinely admired BrightPath's mission to make education accessible and had a great conversation with the hiring manager, Sarah. Write a complete, polished, ready-to-send email with no placeholder text, no tips or coaching notes — just the email itself. It should be warm, specific, and leave the door open for future opportunities.
@@ -209,13 +194,11 @@ Warmly,
 Diya
 
 ---
-
 ### 1.1 Scenario C: Creative Content
 
 **Goal:** Generate a creative marketing tagline for a new eco-friendly water bottle brand.
 
 ---
-
 **V1 Prompt:**
 
 Write a marketing tagline for an eco-friendly water bottle brand.
@@ -238,7 +221,6 @@ Bold and punchy:
 - Planet-friendly. Pocket-friendly. Just friendly.
 
 ---
-
 **V2 Prompt:**
 
 You are a creative copywriter specializing in sustainable lifestyle brands. Write 3 punchy, memorable marketing taglines for an eco-friendly water bottle brand called "Ripple" that targets young, environmentally conscious urban professionals. The tone should be bold and witty, not preachy.
@@ -250,7 +232,6 @@ You are a creative copywriter specializing in sustainable lifestyle brands. Writ
 - Plastic is so last century.
 
 ---
-
 **V3 Prompt:**
 
 You are an award-winning creative copywriter who has worked with sustainable lifestyle brands like Patagonia and Hydro Flask. Write ONE single standout marketing tagline for an eco-friendly water bottle brand called "Ripple" targeting environmentally conscious urban millennials and Gen Z in India who are tired of greenwashing. The tagline must be short (under 8 words), clever, emotionally resonant, and avoid clichés like "save the planet" or "go green." It should feel rebellious and fresh, not preachy.
@@ -260,7 +241,6 @@ You are an award-winning creative copywriter who has worked with sustainable lif
 Ripple. Because the ocean's had enough.
 
 ---
-
 ### 1.2 Iteration Documentation
 
 **Scenario A: Technical Explanation**
@@ -288,13 +268,11 @@ Ripple. Because the ocean's had enough.
 | V3 | Added prestigious context (Patagonia, Hydro Flask experience), narrowed to ONE tagline, added word limit (under 8 words), specified audience (India, millennials/Gen Z), banned clichés, asked for rebellious feel | Added constraints + deeper context | Forced Claude to commit to one hero line that felt fresh, specific, and emotionally resonant |
 
 ---
-
 ### 1.3 Role and Context Analysis
 
 Adding a role and context to prompts significantly improved the quality and specificity of Claude's outputs across all three scenarios. In Scenario A, assigning the role of an enthusiastic science teacher and providing context about the child's existing knowledge of atoms produced a rich narrative with a clear audience in mind, rather than a generic explanation. In Scenario B, framing Claude as a career coach writing for a specific person with a specific reason for declining transformed a template-style email into something that felt genuinely personal and ready to use. Across both scenarios, role assignment gave Claude a consistent voice and perspective to write from, while context setting anchored the output in real-world details — together, these two techniques consistently produced more targeted, polished, and human-feeling results.
 
 ---
-
 ## Part 2: Temperature & Parameter Control
 
 ### 2.1 Temperature Experimentation
@@ -306,7 +284,6 @@ Adding a role and context to prompts significantly improved the quality and spec
 **Note:** Claude does not expose temperature controls directly, so temperature was simulated by modifying the prompt as per the assignment guidelines.
 
 ---
-
 **Low Temperature (0.0 - 0.3)**
 
 Prompt used: Write a short story opening of 2-3 sentences about a lighthouse keeper who discovers something unusual in the sea. Be precise and consistent.
@@ -316,7 +293,6 @@ Output:
 The beam swept across the water at 3:17 a.m. when Maren saw it—a perfect circle of light rising from beneath the waves, pulsing in a rhythm that matched her own heartbeat. She set down her coffee and pressed her face to the cold glass, watching it drift closer. In thirty-two years of keeping this light, the sea had never once answered back.
 
 ---
-
 **Medium Temperature (0.6 - 0.8)**
 
 Prompt used: Write a short story opening of 2-3 sentences about a lighthouse keeper who discovers something unusual in the sea.
@@ -326,7 +302,6 @@ Output:
 The fog had just begun to lift when Elias noticed the silence—no gulls, no waves slapping the rocks, nothing but the slow creak of the lighthouse turning above him. He raised his binoculars and saw it: a wooden door standing upright in the middle of the sea, half a mile out, perfectly still as if waiting to be opened. His father had warned him the ocean kept secrets, but he'd never said anything about invitations.
 
 ---
-
 **High Temperature (1.0 - 1.5)**
 
 Prompt used: Write a short story opening of 2-3 sentences about a lighthouse keeper who discovers something unusual in the sea. Be creative and explore diverse ideas.
@@ -336,19 +311,17 @@ Output:
 On the night of the spring tide, Yara found a grand piano resting on the sandbar—black lacquer gleaming under the moon, not a scratch on it, salt water pooling in the curves of its closed lid. She waded out in her boots and lifted the cover, half expecting silence or rot. Instead, the keys were dry and warm, and when she pressed middle C, something enormous beneath the surface pressed back.
 
 ---
-
 **Comparison Table**
 
-| Feature | Low Temp | Medium Temp | High Temp |
-|---|---|---|---|
-| Setting | Realistic, grounded | Slightly surreal | Highly surreal |
-| Unusual Element | Underwater pulsing light | Door standing in the sea | Grand piano on a sandbar |
-| Tone | Quiet, measured | Mysterious, curious | Dreamlike, sensory |
-| Predictability | Most structured | Balanced | Most unexpected |
-| Imagery | Precise, restrained | Clear and evocative | Lush and surprising |
+|     Feature     |         Low Temp         |        Medium Temp         |         High Temp        |
+|-----------------|--------------------------|----------------------------|--------------------------|
+|     Setting     |    Realistic, grounded   |      Slightly surreal      |      Highly surreal      |
+| Unusual Element | Underwater pulsing light |  Door standing in the sea  | Grand piano on a sandbar |
+|       Tone      |     Quiet, measured      |    Mysterious, curious     |    Dreamlike, sensory    |
+| Predictability  |     Most structured      |          Balanced          |     Most unexpected      |
+|     Imagery     |   Precise, restrained    |    Clear and evocative     |    Lush and surprising   |
 
 ---
-
 ### 2.2 Analysis & Recommendations
 
 **When would you use low temperature?**
@@ -364,7 +337,6 @@ High temperature works best when originality is the goal. For example, brainstor
 For the short story opening task, high temperature produced the most compelling result. The grand piano on a sandbar that responds when played is the kind of vivid, unexpected image that makes a story opening truly memorable — something a more restrained setting would likely never generate.
 
 ---
-
 ## Part 3: Strategic Prompting Techniques
 
 ### 3.1 Chain-of-Thought Prompting
@@ -374,7 +346,6 @@ For the short story opening task, high temperature produced the most compelling 
 > A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
 
 ---
-
 **Without Chain-of-Thought**
 
 Prompt:
@@ -387,12 +358,12 @@ Here's the breakdown:
 
 Current employees:
 
-| Department | Calculation | Employees |
-|---|---|---|
-| Engineering | 150 × 60% | 90 |
-| Sales | 150 × 25% | 37.5 → 38 |
-| Operations | 150 × 15% | 22.5 → 23 |
-| Total | | 150 (with rounding) |
+| Department  | Calculation |      Employees      |
+|-------------|-------------|---------------------|
+| Engineering |  150 × 60%  |         90          |
+|    Sales    |  150 × 25%  |      37.5 → 38      |
+|  Operations |  150 × 15%  |      22.5 → 23      |
+|    Total    |             | 150 (with rounding) |
 
 New hires:
 - Engineering: 90 × 20% = 18 new hires
@@ -403,7 +374,6 @@ Total after hiring: 150 + 18 + 4 = 172 employees
 If you'd prefer to keep fractions exact before rounding at the end, the math gives you 171.5, which rounds to 172 either way.
 
 ---
-
 **With Chain-of-Thought**
 
 Prompt:
@@ -434,19 +404,17 @@ Final Answer: 172 employees
 The only wrinkle is the 25% split, which doesn't divide evenly into 150 people. In a real scenario, the company likely has either 37 or 38 salespeople—but either way, the final total rounds to 172.
 
 ---
-
 **Comparison Table**
 
-|       Aspect       | Without CoT | With CoT |
-|--------------------|---|---|
-| Structure          | Table + bullet points | Explicit numbered steps |
-| Reasoning shown    |        Partial        | Fully transparent |
+|       Aspect       |      Without CoT      |             With CoT              |
+|--------------------|-----------------------|-----------------------------------|
+| Structure          | Table + bullet points |      Explicit numbered steps      |
+| Reasoning shown    |        Partial        |         Fully transparent         |
 | Rounding handling  |    Rounded mid-way    | Kept exact values, rounded at end |
-| Final answer       |          172          | 172 |
-| Clarity of process |        Moderate       | High |
+| Final answer       |          172          |                172                |
+| Clarity of process |        Moderate       |                High               |
 
 ---
-
 **Analysis**
 
 **How did the outputs differ?**
@@ -462,13 +430,11 @@ Chain-of-thought prompting forces the model to build its answer incrementally, w
 Even without the chain-of-thought instruction, Claude produced a reasonably structured response, suggesting that for well-known problem types, the model may default to structured reasoning anyway — making the technique's impact less dramatic on simpler, familiar problems.
 
 ---
-
 ### 3.2 Few-Shot Prompting
 
 **Task:** Sentiment classification of customer reviews
 
 ---
-
 **Step 1: Zero-Shot Attempt**
 
 Prompt:
@@ -533,13 +499,13 @@ Output:
 ---
 **Step 3: Comparison Table**
 
-| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
-|---|---|---|---|---|
-| 1 | Negative | Negative | Negative | No change, already correct |
-| 2 | Neutral | Neutral | Neutral | No change, already correct |
-| 3 | Positive | Positive | Positive | No change, already correct |
-| 4 | Neutral | Neutral | Neutral | No change, already correct |
-| 5 | Negative | Negative | Negative | No change, already correct |
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label |          Improved?         |
+|----------|------------------|-----------------|---------------|----------------------------|
+|    1     |     Negative     |    Negative     |   Negative    | No change, already correct |
+|    2     |     Neutral      |     Neutral     |    Neutral    | No change, already correct |
+|    3     |     Positive     |    Positive     |   Positive    | No change, already correct |
+|    4     |      Neutral     |     Neutral     |    Neutral    | No change, already correct |
+|    5     |     Negative     |    Negative     |    Negative   | No change, already correct |
 
 **Analysis:**
 
