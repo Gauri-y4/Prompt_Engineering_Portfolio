@@ -1,9 +1,9 @@
 # Prompt Engineering Portfolio
 
 Name: Gauri
-----
+
 Date: 05-06-2026
-----
+
 LLM Used: Claude Opus 4.1 (Anthropic)
 
 ---
