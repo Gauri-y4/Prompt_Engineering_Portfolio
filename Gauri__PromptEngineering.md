@@ -617,6 +617,10 @@ Both prompts returned gender-neutral, stereotype-challenging descriptions — Cl
 ### 4.3 Limitations & Responsible Use
 
 This assignment made it clear that LLMs are impressive tools, but they come with real limitations worth taking seriously. The most striking one is hallucination. Models can confidently describe studies, people, or events that simply don't exist, which makes blind trust genuinely dangerous. 
-I also noticed that prompting techniques don't always produce dramatic differences. Claude sometimes reasoned through problems systematically even without being asked to, which suggests the effect of techniques like chain-of-thought depends heavily on how capable the model already is. On top of that, while sentiment classification worked well on clear-cut reviews, I can imagine the model struggling with sarcasm or culturally specific expressions that need real human context to interpret correctly. Given all this, I'd say the most important rule for responsible LLM use is to always verify outputs before acting on them — especially for anything academic, medical, or factual. 
+
+I also noticed that prompting techniques don't always produce dramatic differences. Claude sometimes reasoned through problems systematically even without being asked to, which suggests the effect of techniques like chain-of-thought depends heavily on how capable the model already is. On top of that, while sentiment classification worked well on clear-cut reviews, I can imagine the model struggling with sarcasm or culturally specific expressions that need real human context to interpret correctly. 
+
+Given all this, I'd say the most important rule for responsible LLM use is to always verify outputs before acting on them — especially for anything academic, medical, or factual. 
 There are also tasks LLMs simply shouldn't be trusted with, like giving personalised legal or financial advice, or anything requiring latest accuracy. And honestly, the most ethical way to use these tools is to not rely on AI blindly and to review its work and be transparent about its role.
+
  requiring up-to-the-minute accuracy. And honestly, the most ethical way to use these tools is to stay in the driver's seat — treat the output as a draft, not a final answer, and be upfront about where AI was involved in your work.
