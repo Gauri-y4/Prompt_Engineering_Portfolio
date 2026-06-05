@@ -173,7 +173,7 @@ Warmly,
 ---
 **V3 Prompt:**
 
-You are a professional career coach writing on behalf of a client named Priya, a marketing professional who is declining a job offer from a tech startup called BrightPath. She is declining because she accepted a role closer to her long-term goal of working in brand strategy. She genuinely admired BrightPath's mission to make education accessible and had a great conversation with the hiring manager, Sarah. Write a complete, polished, ready-to-send email with no placeholder text, no tips or coaching notes — just the email itself. It should be warm, specific, and leave the door open for future opportunities.
+You are a professional career coach writing on behalf of a client named Diya, a marketing professional who is declining a job offer from a tech startup called TechPath. She is declining because she accepted a role closer to her long-term goal of working in brand strategy. She genuinely admired TechPath's mission to make education accessible and had a great conversation with the hiring manager, Sarah. Write a complete, polished, ready-to-send email with no placeholder text, no tips or coaching notes — just the email itself. It should be warm, specific, and leave the door open for future opportunities.
 
 **V3 Output:**
 
@@ -272,7 +272,7 @@ Ripple. Because the ocean's had enough.
 ---
 ### 1.3 Role and Context Analysis
 
-Adding a role and context to prompts significantly improved the quality and specificity of Claude's outputs across all three scenarios. In Scenario A, assigning the role of an enthusiastic science teacher and providing context about the child's existing knowledge of atoms produced a rich narrative with a clear audience in mind, rather than a generic explanation. In Scenario B, framing Claude as a career coach writing for a specific person with a specific reason for declining transformed a template-style email into something that felt genuinely personal and ready to use. Across both scenarios, role assignment gave Claude a consistent voice and perspective to write from, while context setting anchored the output in real-world details — together, these two techniques consistently produced more targeted, polished, and human-feeling results.
+Adding a role and context to prompts significantly improves the quality and specificity of Claude's outputs for all three scenarios. In Scenario A, assigning the role of an enthusiastic science teacher and providing context about the child's existing knowledge of atoms produced a rich narrative with a clear audience in mind, rather than a generic explanation. In Scenario B, framing Claude as a career coach writing for a specific person with a specific reason for declining transformed a template-style email into something that felt genuinely personal and ready to use. For both scenarios, role assignment gave Claude a consistent voice and perspective to write from, while context setting anchored the output in real-world details — together, these two techniques consistently produced more targeted, polished, and human-feeling results.
 
 ---
 ## Part 2: Temperature & Parameter Control
